@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento Não Efetuado</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f44336; /* Cor de fundo vermelha */
+            color: white;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        .loading-container {
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .error-icon {
+            font-size: 80px;
+            color: red;
+            margin-bottom: 20px;
+        }
+
+        .loading-text {
+            font-size: 18px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        .dots {
+            font-weight: bold;
+            animation: dot-blink 1.5s infinite;
+        }
+
+        @keyframes dot-blink {
+            0% {
+                content: "."; 
+            }
+            33% {
+                content: "..";
+            }
+            66% {
+                content: "...";
+            }
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loading-container">
+        <h1>Caixa Econômica</h1>
+        <div class="error-icon">X</div> <!-- "X" em vermelho -->
+        <div class="loading-text">
+            Pagamento não efetuado. Efetue o pagamento e aperte em finalizar para prosseguir.
+        </div>
+        <button onclick="finalizar()">Finalizar</button>
+    </div>
+
+    <script>
+        function finalizar() {
+            // Aqui você pode adicionar a lógica para redirecionar ou realizar alguma ação após o clique no botão
+            window.location.href = "tela-pagar.html"; // Substitua pelo link correto de sua página
+        }
+    </script>
+
+</body>
+</html>
