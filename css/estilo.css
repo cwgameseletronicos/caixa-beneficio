@@ -35,7 +35,7 @@
         font-size: 20px;
         font-weight: 500;
         top: 10%;
-        left: 65px;
+        left: 95px;
     }
 
     .text-beneficio{
@@ -55,19 +55,20 @@
 
     .container-emprestimo{
         display: flex;
-        position: absolute;
+       position: absolute;
 
         justify-content: center;
         align-items: center;
 
         height: 300px;
 
-        width: 70%;
+        width: 90%;
 
         
 
         top: 230px;
-        left:90px;
+        left: 2%;
+        
 
         border-radius: 10px;
         box-shadow: 1px 1px 5px gray;
@@ -106,6 +107,7 @@
 
 
         top: 230px;
+        left: 25%;
         text-decoration: none;
 
         height: 50px;
