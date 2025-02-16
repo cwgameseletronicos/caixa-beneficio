@@ -35,7 +35,7 @@
     font-size: 20px;
     font-weight: 500;
     top: 10%;
-    left: 10px;
+    left: 70px;
 }
 
 .container-acessar{
@@ -132,12 +132,12 @@
 
     height: 500px;
 
-    width: 70%;
+    width: 90%;
 
     
 
     top: 120px;
-    left: 90px;
+    left: 4%;
 
     border-radius: 10px;
     box-shadow: 1px 1px 5px gray;
@@ -208,7 +208,7 @@
     background: #005CA5;
 
     top: 550px;
-    left: 143px;
+    left: 123px;
 }
 
 .text-finalizar{
